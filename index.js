@@ -60,7 +60,7 @@ function writeSVG(answers) {
     </svg>`;
     fs.writeFile('logo.svg', svg, (err) => {
         if (err) throw err;
-        console.log('The file has been saved!');
+        console.log('Generated logo.svg');
     });
 }
 
